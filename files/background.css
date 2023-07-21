@@ -3,5 +3,7 @@
 }
 
 body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
     background-size: 100% auto !important;
 }
