@@ -10,9 +10,9 @@
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
   --color-blue: 255, 255, 255;
-  --color-blue-dim: 208, 12, 28;
+  --color-blue-dim: 255, 255, 255;
   --color-red: 255, 255, 255;
-  --color-green: 208, 12, 28;
+  --color-green: 255, 255, 255;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-green);
