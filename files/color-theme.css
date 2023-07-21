@@ -9,7 +9,7 @@
   --color-nav-transparent-text: var(--color-text);
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
-  --color-blue: 255, 255, 255;
+  --color-blue: 255, 255, 0;
   --color-blue-dim: 255, 255, 255;
   --color-red: 255, 255, 255;
   --color-green: 255, 255, 255;
