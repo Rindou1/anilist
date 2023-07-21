@@ -1,30 +1,35 @@
+/*
+*   For any questions check out https://github.com/Mentor404/anilist-css/issues
+*/
+
+/* colors */
 :root, .site-theme-dark, .site-theme-contrast, * {
 
   --color-nav-transparent-background: var(--color-foreground),.0;
   --color-nav-transparent-text: var(--color-text);
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
-  --color-blue: 217, 12, 28;
-  --color-blue-dim: 217, 12, 28;
-  --color-red: 217, 12, 28;
-  --color-green: 217, 12, 28;
+  --color-blue: 191, 38, 4;
+  --color-blue-dim: 191, 38, 4;
+  --color-red: 191, 38, 4;
+  --color-green: 191, 38, 4;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-green);
   --genre-blue: var(--color-blue);
   --genre-purple: var(--color-text-lighter);
-  --genre-pink: 255, 255, 255;
+  --genre-pink: 133, 133, 133;
   --genre-red: var(--color-red);
-  --genre-orange: 219, 9, 9;
+  --genre-orange: 210, 14, 65;
   --color-nav-background: var(--color-foreground);
   --color-nav-text: var(--color-text);
-  --color-background: 0, 0, 0;
-  --color-foreground: 16, 20, 20;
-  --color-foreground-grey: 16, 20, 20;
+  --color-background: 13, 0, 0;
+  --color-foreground: 38, 1, 11, 0.9;
+  --color-foreground-grey: 38, 1, 11, 0.9;
   --color-foreground-grey-dark: var(--color-background);
-  --color-text: 255, 255, 255;
-  --color-text-light: 245, 245, 245;
-  --color-text-lighter: 255, 255, 255;
+  --color-text: 133, 133, 133;
+  --color-text-light: 143, 143, 143;
+  --color-text-lighter: 133, 133, 133;
   --color-background-300: var(--color-background);
   --color-background-200: var(--color-background); 
   --color-background-100: var(--color-foreground); 
