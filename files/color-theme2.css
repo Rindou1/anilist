@@ -1,4 +1,5 @@
-:root, .site-theme-dark, .site-theme-contrast * {
+:root, .site-theme-dark, .site-theme-contrast, * {
+
 --bg-img: url(https://cdn.discordapp.com/attachments/1015768226325610507/1128855584830140446/void.png);
     --bg-clr: unset;
     --bg-scr: fixed;
