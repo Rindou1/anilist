@@ -22,9 +22,9 @@
   --color-foreground: 165, 30, 48;
   --color-foreground-grey: 82, 7, 1;
   --color-foreground-grey-dark: var(--color-background);
-  --color-text: 183, 104, 207;
-  --color-text-light: 183, 104, 207;
-  --color-text-lighter: 183, 104, 207;
+  --color-text: 178, 107, 230;
+  --color-text-light: 178, 107, 230;
+  --color-text-lighter: 178, 107, 230;
   --color-background-300: var(--color-background);
   --color-background-200: var(--color-background); 
   --color-background-100: var(--color-foreground); 
