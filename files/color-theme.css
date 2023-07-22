@@ -8,7 +8,7 @@
   --color-blue-dim: 252, 186, 3;
   --color-red: 252, 186, 3;
   --color-green: 252, 186, 3;
-  --color-footer-background: var(--color-background);
+  --color-footer-background: 147, 8, 27, 0.5;
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-green);
   --genre-blue: var(--color-blue);
