@@ -1,6 +1,7 @@
 * {
-  font-family: "sofia-pro", sans-serif;
+    font-family: "sofia-pro", sans-serif;
 }
+
 
 
 .history-day:not(.lv-0):hover {
@@ -19,6 +20,7 @@
 .footer .links > section > a:hover {
     text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
 }
+
 
 .load-more:hover {
     text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 15px rgb(var(--color-blue)) !important;
