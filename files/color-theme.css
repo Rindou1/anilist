@@ -18,7 +18,7 @@
   --genre-green: var(--color-green);
   --genre-blue: var(--color-blue);
   --genre-purple: var(--color-text-lighter);
-  --genre-pink: 240, 240, 240;
+  --genre-pink: 255, 255, 255;
   --genre-red: var(--color-red);
   --genre-orange: 208, 12, 28;
   --color-nav-background: var(--color-foreground);
