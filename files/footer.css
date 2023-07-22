@@ -1,11 +1,11 @@
 .wrap .footer{
   display: grid;
   justify-content: center;
-  background: linear-gradient(0deg, rgb(var(--color-footer-background)) 0%, rgb(var(--color-footer-background),0) 200%) !important; 
+  background: linear-gradient(0deg, rgb(147, 8, 27, 0.5) 0%, rgb(147, 8, 27, 0.5),0) 200%) !important; 
 }
 
 .wrap .footer:hover{
-    background: linear-gradient(0deg, rgb(var(--color-footer-background)) 0%, rgb(var(--color-footer-background),0) 300%) !important; 
+    background: linear-gradient(0deg, rgb(147, 8, 27, 0.5) 0%, rgb(147, 8, 27, 0.5),0) 300%) !important; 
 }
 
 .wrap .footer .container .theme-selector{
