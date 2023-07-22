@@ -4,7 +4,7 @@
 
 
 .history-day:not(.lv-0):hover {
-    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+    box-shadow: 0 0 10px rgb(var(--color-blue)), 0 0 15px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
 }
 
 .favourite {
@@ -12,24 +12,24 @@
 }
 
 .favourite:hover {
-    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 5px rgb(var(--color-blue)) !important;
+    box-shadow: 0 0 10px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-blue)) !important;
     scale: 1.05;
 }
 
 .footer .links > section > a:hover {
-    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+    text-shadow: 0 0 10px rgb(var(--color-blue)), 0 0 15px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
 }
 
 .load-more:hover {
-    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 15px rgb(var(--color-blue)) !important;
+    text-shadow: 0 0 10px rgb(var(--color-blue)), 0 0 15px rgb(var(--color-background)), 0 0 15px rgb(var(--color-blue)) !important;
 }
 
 .like-wrap .liked > svg {
-    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+    filter: drop-shadow(0 0 5px rgb(var(--color-blue)));
 }
 
 .like-wrap .button > svg:hover {
-    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+    filter: drop-shadow(0 0 5px rgb(var(--color-blue)));
     scale: 1.2;
 
 }
@@ -39,5 +39,5 @@
 }
 
 .list .title {
-    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)) !important;
+    text-shadow: 0 0 10px rgb(var(--color-blue)), 0 0 15px rgb(var(--color-background)) !important;
 }
