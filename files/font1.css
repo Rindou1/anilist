@@ -4,9 +4,6 @@
 
 
 
-.history-day:not(.lv-0):hover {
-    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
-}
 
 .favourite {
     transition: .3s;
