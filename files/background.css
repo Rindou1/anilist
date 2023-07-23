@@ -1,10 +1,53 @@
-/* Original code made by https://github.com/Mentor404/ */
-:root{
-    --background: url("https://i.imgur.com/hNHWc7u.png");
+:root {
+  --bg-img: url("https://i.imgur.com/hNHWc7u.png");
+  --bg-clr: unset;
+  --bg-scr: fixed;
+  --bg-pos: center;
+  --bg-rpt: no-repeat;
+  --bg-sze: cover;
+  --fullscreen-bg: rgb(var(--color-background));
+  --fullscreen-filter: none;
+  --fullscreen-banner: visible; 
 }
 
-body {
-    background: #000000 var(--background) center/100% fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% auto !important;
+.banner {
+  visibility: var(--fullscreen-banner);
+}
+
+.banner > .container {
+  visibility: visible;
+}
+
+/* navbar*/
+.header-wrap .nav-wrap {
+  margin: 0 auto;
+  border-radius: 4px 4px 0 0;
+}
+@media (min-width: 1540px) {
+  .header-wrap .nav-wrap {
+    max-width: 1380px;
+  }
+}
+@media (min-width: 1040px) and (max-width: 1540px) {
+  .header-wrap .nav-wrap {
+    max-width: 1100px;
+  }
+}
+
+/* content */
+@media (min-width: 1540px) {
+  .content.container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+
+/* background */
+.content .overview, .content > .medialist, .content > .favourites, .content > .stats, .content > .user-social, .content > .user-reviews, .content > .submissions {
+  margin-top: 0;
+  background: var(--fullscreen-bg);
+  padding: 30px;
+  border-radius: 0 0 4px 4px;
+  backdrop-filter: var(--fullscreen-filter);
 }
