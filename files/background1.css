@@ -1,11 +1,5 @@
-.page-content > .user {
-  padding-bottom: 60px;
-}
-
-#app > .wrap,
-#app > .wrap > .footer {
-  margin-top: unset;
-}
+@import url("https://anzuftnw.github.io/files/shadowless-banner.css");
+@import url("https://anzuftnw.github.io/files/simple-bg.css");
 
 :root {
   --bg-img: url("https://i.imgur.com/hNHWc7u.png");
@@ -14,31 +8,6 @@
   --bg-pos: center;
   --bg-rpt: no-repeat;
   --bg-sze: cover;
-}
-
-/* code */
-.page-content > .user {
-  background-attachment: var(--bg-scr) !important;
-  background-image: var(--bg-img) !important;
-  background-color: var(--bg-clr) !important;
-  background-position: var(--bg-pos) !important;
-  background-repeat: var(--bg-rpt) !important;
-  background-size: var(--bg-sze) !important;
-}
-
-.banner .shadow {
-  display: none;
-}
-
-:root {
-  /* simple-bg settings */
-  --bg-img: url("");
-  --bg-clr: unset;
-  --bg-scr: fixed;
-  --bg-pos: center;
-  --bg-rpt: no-repeat;
-  --bg-sze: cover;
-
   --fullscreen-bg: rgb(var(--color-background));
   --fullscreen-filter: none;
   --fullscreen-banner: visible; 
@@ -52,6 +21,23 @@
   visibility: visible;
 }
 
+/* navbar*/
+.header-wrap .nav-wrap {
+  margin: 0 auto;
+  border-radius: 4px 4px 0 0;
+}
+@media (min-width: 1540px) {
+  .header-wrap .nav-wrap {
+    max-width: 1380px;
+  }
+}
+@media (min-width: 1040px) and (max-width: 1540px) {
+  .header-wrap .nav-wrap {
+    max-width: 1100px;
+  }
+}
+
+/* content */
 @media (min-width: 1540px) {
   .content.container {
     padding-left: 70px;
@@ -65,6 +51,7 @@
   }
 }
 
+/* background */
 .content .overview, .content > .medialist, .content > .favourites, .content > .stats, .content > .user-social, .content > .user-reviews, .content > .submissions {
   margin-top: 0;
   background: var(--fullscreen-bg);
@@ -76,6 +63,7 @@
   padding-bottom: 30px;
 }
 
+/* anime/manga list */
 .medialist .list-wrap:last-child {
     margin-bottom: 0px;
 }
@@ -83,6 +71,7 @@
     top: 0;
 }
 
+/* favourites */
 .favourites .favourites {
     margin-top: 0;
 }
@@ -93,6 +82,7 @@
     background-color: unset;
 }
 
+/* stats */
 .stats .stats-wrap .overview {
     padding: 0px 30px 0px 30px;
     /* temp fix (cuz im lazy) */
@@ -103,6 +93,7 @@
     margin-bottom: 0;
 }
 
+/* submissions */
 .content > .submissions {
     max-width: unset;
 }
