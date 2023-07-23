@@ -19,7 +19,7 @@
   border-radius: var(--badge-rounding);
   color: var(--badge-color);
   cursor: text;
-  font-family: "FontAwesome";
+  font-family: "sofia-pro", sans-serif;
   font-size: 1.2rem;
   font-weight: 800;
   letter-spacing: 0.03em;
