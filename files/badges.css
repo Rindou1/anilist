@@ -5,7 +5,6 @@
   content: "The Brave Barbarian";
 }
 
-/* settings */
 :root {
   --badge-background: rgb(var(--color-background));
   --badge-color: rgb(var(--color-text));
@@ -13,7 +12,6 @@
   --badge-font: Overpass;
 }
 
-/* code */
 .header > .name:after {
   background: var(--badge-background);
   border-radius: var(--badge-rounding);
