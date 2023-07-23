@@ -1,5 +1,5 @@
 .header > .name:after {
-  content: "AAAA";
+  content: "Customer";
 }
 .header > a[href="/user/Rindou/"].name:after {
   content: "The Brave Barbarian";
@@ -25,5 +25,5 @@
   margin-left: 5px;
   padding: 4px 7px;
   position: relative;
-  top: -2px;
+  top: 3px;
 }
