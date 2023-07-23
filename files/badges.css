@@ -1,8 +1,8 @@
 .header > .name:after {
-  content: "The Brave Barbarian";
+  content: "Customer";
 }
-.header > a[href="/user/Rindou/"].name:before {
-  content: "The Customer";
+.header > a[href="/user/Shishibe"].name:before {
+  content: "Chef ";
 }
 .header > a[href="/user/Rindou/"].name:after {
   content: "The Brave Barbarian";
