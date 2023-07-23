@@ -1,7 +1,7 @@
-.header > .name:after {
+.header > a[href="/user/Shishibe"].name:after {
   content: "Customer";
 }
-.header > a[href="/user/Shishibe/"].name:after {
+.header > a[href="/user/Rindou/"].name:after {
   content: "The Brave Barbarian";
 }
 
