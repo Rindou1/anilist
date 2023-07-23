@@ -1,9 +1,0 @@
-/*
-  shadowless-banner.css - version 1.0
-    by https://github.com/AnzuFTNW
-*/
-
-/* remove banner shadow */
-.banner .shadow {
-  display: none;
-}
