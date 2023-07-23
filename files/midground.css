@@ -42,7 +42,7 @@
 
 
 .content .overview, .content > .medialist, .content > .favourites, .content > .stats, .content > .user-social, .content > .user-reviews, .content > .submissions {
-  margin-top: -2em;
+  margin-top: 0em;
   background: var(--fullscreen-bg);
   padding: 30px;
   border-radius: 0 0 4px 4px;
