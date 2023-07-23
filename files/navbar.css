@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-@media (min-width: 1540px) {
+@media (min-width: 1640px) {
     .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1320px;
@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width: 1040px) and (max-width: 1540px) {
+@media (min-width: 1140px) and (max-width: 1540px) {
     .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1040px;
