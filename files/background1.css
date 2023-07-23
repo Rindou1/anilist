@@ -1,0 +1,95 @@
+/*
+  fullscreen-bg.css - version 1.3.1
+    by https://github.com/AnzuFTNW
+*/
+
+/* snippets */
+@import url("https://anzuftnw.github.io/files/shadowless-banner.css");
+@import url("https://anzuftnw.github.io/files/simple-bg.css");
+
+/* settings */
+:root {
+  /* simple-bg settings */
+  --bg-img: url("");
+  --bg-clr: unset;
+  --bg-scr: fixed;
+  --bg-pos: center;
+  --bg-rpt: no-repeat;
+  --bg-sze: cover;
+
+  /* fullscren-bg settings */
+  --fullscreen-bg: rgb(var(--color-background));
+  --fullscreen-filter: none;
+  --fullscreen-banner: visible; 
+}
+
+/* code */
+/* banner */
+.banner {
+  visibility: var(--fullscreen-banner);
+}
+
+.banner > .container {
+  visibility: visible;
+}
+
+/* content */
+@media (min-width: 1540px) {
+  .content.container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media (min-width: 1040px) and (max-width: 1540px) {
+  .content.container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* background */
+.content .overview, .content > .medialist, .content > .favourites, .content > .stats, .content > .user-social, .content > .user-reviews, .content > .submissions {
+  margin-top: 0;
+  background: var(--fullscreen-bg);
+  padding: 30px;
+  border-radius: 0 0 4px 4px;
+  backdrop-filter: var(--fullscreen-filter);
+}
+.page-content > .user.user-page-unscoped {
+  padding-bottom: 30px;
+}
+
+/* anime/manga list */
+.medialist .list-wrap:last-child {
+    margin-bottom: 0px;
+}
+.medialist .actions {
+    top: 0;
+}
+
+/* favourites */
+.favourites .favourites {
+    margin-top: 0;
+}
+.favourites .favourites:last-child .favourites-wrap {
+    margin-bottom: 0;
+}
+.favourites .favourites .studios .favourite {
+    background-color: unset;
+}
+
+/* stats */
+.stats .stats-wrap .overview {
+    padding: 0px 30px 0px 30px;
+    /* temp fix (cuz im lazy) */
+    background: unset !important;
+    backdrop-filter: unset !important;
+}
+.stats .overview section:last-child {
+    margin-bottom: 0;
+}
+
+/* submissions */
+.content > .submissions {
+    max-width: unset;
+}
