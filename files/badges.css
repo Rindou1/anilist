@@ -1,11 +1,11 @@
 .header > .name:after {
-  content: "Customer";
+  content: "The Brave Barbarian";
 }
-.header > a[href="/user/Anzu/"].name:before {
-  content: "Mr.";
+.header > a[href="/user/Rindou/"].name:before {
+  content: "The Customer";
 }
-.header > a[href="/user/Anzu/"].name:after {
-  content: "Chef";
+.header > a[href="/user/Rindou/"].name:after {
+  content: "The Brave Barbarian";
 }
 
 /* settings */
