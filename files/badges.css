@@ -1,9 +1,6 @@
 .header > .name:after {
   content: "Customer";
 }
-.header > a[href="/user/Shishibe"].name:before {
-  content: "Chef ";
-}
 .header > a[href="/user/Rindou/"].name:after {
   content: "The Brave Barbarian";
 }
