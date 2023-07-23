@@ -9,8 +9,8 @@
     .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1320px;
-        padding-left: 285px;
-        padding-right: 285px;
+        padding-left: 290px;
+        padding-right: 290px;
     }
 }
 
@@ -18,8 +18,8 @@
     .header-wrap .nav-wrap {
         border-radius: 5px;
         width: 1040px;
-        padding-left: 195px;
-        padding-right: 195px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
 }
 
@@ -94,7 +94,7 @@
 }
 
 .user-page-unscoped.red .progress .bar {
-    background: linear-gradient(270deg, #93081b, ##764797) !important;
+    background: linear-gradient(270deg, #93081b, #764797) !important;
 }
 
 .nav > .router-link-active, .header-wrap .nav-wrap .link:hover {
