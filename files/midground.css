@@ -1,14 +1,3 @@
-:root {
-  --bg-img: url("https://i.imgur.com/hNHWc7u.png");
-  --bg-clr: unset;
-  --bg-scr: fixed;
-  --bg-pos: center;
-  --bg-rpt: no-repeat;
-  --bg-sze: cover;
-  --fullscreen-bg: rgb(var(--color-background));
-  --fullscreen-filter: none;
-  --fullscreen-banner: visible; 
-}
 
 .banner {
   visibility: var(--fullscreen-banner);
