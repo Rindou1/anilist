@@ -4,4 +4,5 @@
   padding: var(--hokaze-pdh);
   border-radius: var(--hokaze-brb);
   box-shadow: var(--hokaze-bs);
+  min-width: 30px !important;
 }
