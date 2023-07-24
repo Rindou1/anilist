@@ -36,7 +36,7 @@
   --color-gray-300: var(--color-background); 
   --color-gray-100: var(--color-foreground);
   --hokaze-bt: 0.3;  /* Content Background Transparency*/
-  --hokaze-ph: 10px; /* Horizontal Content Padding */
+  --hokaze-ph: 0px; /* Horizontal Content Padding */
   --hokaze-maw: calc(1520px - 2 * ( 100px - var(--hokaze-ph)));
   --hokaze-ph: 30px; /* Horizontal Content Padding */
   --hokaze-pdh: var(--hokaze-pv) var(--hokaze-ph);
