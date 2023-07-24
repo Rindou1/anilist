@@ -43,8 +43,8 @@
   --hokaze-brb: 0 0 var(--hokaze-br) var(--hokaze-br);
   --hokaze-pv: 30px; /* Vertical Content Padding */
   --hokaze-br: 5px; /* Global Border Radius */
-  --hokaze-bs: rgba(0, 0, 0.07) 0px 1px 2px, /* Box Shadow */
-               rgba(0, 0, 0.07) 0px 2px 4px,
+  --hokaze-bs: rgba(0, 0, 0.5) 0px 1px 2px, /* Box Shadow */
+               rgba(0, 0, 0.5) 0px 2px 4px,
                rgba(0, 0, 0, 0.07) 0px 4px 8px,
                rgba(0, 0, 0, 0.07) 0px 8px 16px;
 }
