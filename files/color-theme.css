@@ -41,8 +41,8 @@
   --hokaze-ph: 20px; /* Horizontal Content Padding */
   --hokaze-pdh: var(--hokaze-pv) var(--hokaze-ph);
   --hokaze-brb: 0 0 var(--hokaze-br) var(--hokaze-br);
-  --hokaze-pv: 30px; /* Vertical Content Padding */
-  --hokaze-br: 5px; /* Global Border Radius */
+  --hokaze-pv: 10px; /* Vertical Content Padding */
+  --hokaze-br: 1px; /* Global Border Radius */
   --hokaze-bs: rgba(0, 0, 0.5) 0px 1px 2px, /* Box Shadow */
                rgba(0, 0, 0.5) 0px 2px 4px,
                rgba(0, 0, 0.5) 0px 4px 8px,
