@@ -1,7 +1,5 @@
 .content.container {
   background: rgb(147, 8, 27, 0.5) !important;
-  max-width: var(--hokaze-maw);
-  padding: var(--hokaze-pdh);
   border-radius: var(--hokaze-brb);
   box-shadow: var(--hokaze-bs);
 }
