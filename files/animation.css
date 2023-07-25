@@ -1,0 +1,42 @@
+@import url(https://rindou1.github.io/anilist/main.css);
+#app > .progress {
+  opacity: 1;
+  border-radius: 0;
+  width: 100% !important;
+    background-color: #fafafa;
+    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: fixed;
+  animation: 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 3s 1 normal backwards preloader, 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 4.2s 1 normal forwards preloader2;
+}
+#app > .progress::after {
+  content: "";
+  background: url("https://i.imgur.com/8rOwozD.png");
+  width: 250px;
+  height: 69px;
+}
+@keyframes preloader {
+    from {
+    height: 100%;
+    clip-path: inset(0 0 0 0);
+  }
+  to {
+    height: 100px;
+    clip-path: inset(0 0 100% 0);
+  }
+}
+@keyframes preloader2 {
+      from {
+    z-index: 99999;
+        background-color: #fafafa;
+        opacity:0;
+      }
+      to {
+    z-index: -1;
+        background-color: transparent;
+        opacity: 0;
+        transition:1s;
+      }
+    }
