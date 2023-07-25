@@ -1,5 +1,5 @@
 .content.container {
-  padding: var(--hokaze-pdh);
+  padding: 0px 10px
   background: rgb(147, 8, 27, 0.5) !important;
   box-shadow: var(--hokaze-bs);
 }
