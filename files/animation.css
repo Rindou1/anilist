@@ -14,8 +14,8 @@
 #app > .progress::after {
   content: "";
   background: url("https://i.imgur.com/8rOwozD.png");
-  width: 300px;
-  height: 100px;
+  width: 0px;
+  height: 0px;
 }
 @keyframes preloader {
     from {
