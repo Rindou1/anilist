@@ -10,7 +10,7 @@
 }
 
 .logo{
-content: url("https://i.imgur.com/8rOwozD.png");
+/*content: url("https://i.imgur.com/8rOwozD.png");*/
 opacity: 0.5;
 transition: scale 1s, opacity .5s;
 }
