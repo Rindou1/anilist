@@ -16,12 +16,12 @@
   --genre-purple: var(--color-text-lighter);
   --genre-pink: 255, 255, 255;
   --genre-red: var(--color-red);
-  --genre-orange: 21, 21, 31;
+  --genre-orange: 13, 71, 124;
   --color-nav-background: var(--color-foreground);
   --color-nav-text: var(--color-text);
   --color-background: 0, 0, 0, 0.5;
-  --color-foreground: 21, 21, 31;
-  --color-foreground-grey: 21, 21, 31;
+  --color-foreground: 13, 71, 124;
+  --color-foreground-grey: 13, 71, 124;
   --color-foreground-grey-dark: var(--color-background);
   --color-text: 255, 255, 255;
   --color-text-light: 255, 255, 255;
