@@ -177,13 +177,6 @@ body {
 .banner-content > .name-wrapper > .name {
   transition: var(--hokaze-vt);
 }
-.banner-content > .follower-badge {
-  position: absolute;
-  bottom: var(--hokaze-bctc);
-  margin: 0;
-  padding: 11.5px 10px;
-  transition: var(--hokaze-at);
-}
 .banner-content > .follower-badge:hover {
   background: rgba(var(--color-blue),1);
 }
