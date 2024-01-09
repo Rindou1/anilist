@@ -47,7 +47,7 @@
   --hokaze-ab: 5px;   /* Avatar Border Thickness */
   --hokaze-ar: 255px;  /* Avatar Border Radius */
   --hokaze-at: all 1s ease-in-out; /* Avatar Hover Transition */
-  --hokaze-av: url("https://i.imgur.com/w6WVzJH.png"); /* Avatar Picture Link */
+  --hokaze-av: url("https://i.imgur.com/2sagpu0.jpg"); /* Avatar Picture Link */
   --hokaze-ah: 1.1; /* Avatar Hover Scale */
   
   /* Quick Maths - !DON'T TOUCH! */
@@ -116,7 +116,6 @@ body {
   border-radius: var(--hokaze-nbr);
   left: var(--hokaze-nbl);
   width: var(--hokaze-nl);
-  box-shadow: var(--hokaze-bs);
 }
 .hide, .nav.nav-unscoped {
   top: -60px !important;
