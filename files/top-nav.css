@@ -8,9 +8,8 @@
     transform: translate(-50%, 0);
     border-radius: 5px;
 }
-
-.logo{
 /*content: url("https://i.imgur.com/8rOwozD.png");*/
+.logo{
 opacity: 0.5;
 transition: scale 1s, opacity .5s;
 }
