@@ -6,6 +6,6 @@
   border-radius: 0px 0px 1px 1px;
 #app > .wrap,
 #app > .wrap > .footer {
-  margin-top: unset;
+  margin-top: unset !important;
 }
 }
