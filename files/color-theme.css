@@ -5,10 +5,10 @@
   --color-nav-transparent-text: var(--color-text);
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
-  --color-blue: 235, 109, 30;
-  --color-blue-dim: 235, 109, 30;
-  --color-red: 235, 109, 30;
-  --color-green: 235, 109, 30;
+  --color-blue: 235, 167, 167;
+  --color-blue-dim: 235, 167, 167;
+  --color-red: 235, 167, 167;
+  --color-green: 235, 167, 167;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-green);
