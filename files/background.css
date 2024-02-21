@@ -1,10 +1,10 @@
 /* Original code made by https://github.com/Mentor404/ */
 :root{
-    --background: url("https://i.imgur.com/VU9770c.jpg");
+    --background: url("https://i.pinimg.com/originals/ca/c8/08/cac8082a5bfe3fb29d9d1032f328fbd6.jpg");
 }
 
 body {
     background: #000000 var(--background) center/100% fixed !important;
     background-repeat: no-repeat !important;
-    background-size: 120% !important;
+    background-size: 100% !important;
 }
