@@ -1,10 +1,22 @@
 /* Original code made by https://github.com/Mentor404/ */
-:root{
-    --background: url("https://i.pinimg.com/originals/ca/c8/08/cac8082a5bfe3fb29d9d1032f328fbd6.jpg");
+/* snippets */
+@import url(https://anzuftnw.github.io/files/bg-fix.css);
+
+/* settings */
+:root {
+  --bg-img: url("https://i.pinimg.com/originals/ca/c8/08/cac8082a5bfe3fb29d9d1032f328fbd6.jpg");
+  --bg-clr: unset;
+  --bg-scr: fixed;
+  --bg-pos: center;
+  --bg-rpt: no-repeat;
+  --bg-sze: cover;
 }
 
-body {
-    background: #000000 var(--background) center/100% fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% !important;
-}
+/* code */
+.page-content > .user {
+  background-attachment: var(--bg-scr) !important;
+  background-image: var(--bg-img) !important;
+  background-color: var(--bg-clr) !important;
+  background-position: var(--bg-pos) !important;
+  background-repeat: var(--bg-rpt) !important;
+  background-size: var(--bg-sze) !important;
