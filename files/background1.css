@@ -1,1 +1,10 @@
+/* Original code made by https://github.com/Mentor404/ */
+:root{
+    --background: url("https://i.imgur.com/VA0OgLj.jpeg");
+}
 
+body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+}
