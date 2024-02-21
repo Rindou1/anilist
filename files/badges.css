@@ -1,9 +1,9 @@
 /* Original code made by https://github.com/AnzuFTNW/ */
 .header > .name:after {
-  content: "Comet";
+  content: "Cutie";
 }
 .header > a[href="/user/Rindou/"].name:after {
-  content: "Star";
+  content: "Not A Cutie";
 }
 
 :root {
