@@ -1,22 +1,56 @@
-@import url(https://rindou1.github.io/anilist/files/pazzesco.css);
-@import url(https://anzuftnw.github.io/files/bg-fix.css);
+/* Original code made by https://github.com/Mentor404/ */
+@import url(https://rindou1.github.io/anilist/files/color-theme.css);
+@import url(https://rindou1.github.io/anilist/files/background1.css);
+@import url(https://rindou1.github.io/anilist/files/favorites.css);
+@import url(https://rindou1.github.io/anilist/files/banner-remove1.css);
+@import url(https://rindou1.github.io/anilist/files/navbar.css);
+@import url(https://rindou1.github.io/anilist/files/stats.css);
+@import url(https://rindou1.github.io/anilist/files/top-nav.css);
+@import url(https://rindou1.github.io/anilist/files/badges.css);
+@import url("https://use.typekit.net/jze6fip.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/* settings */
-:root {
-  --bg-img: url("https://i.pinimg.com/originals/ca/c8/08/cac8082a5bfe3fb29d9d1032f328fbd6.jpg");
-  --bg-clr: unset;
-  --bg-scr: fixed;
-  --bg-pos: center;
-  --bg-rpt: no-repeat;
-  --bg-sze: cover;
+* {
+    font-family: "sofia-pro", sans-serif;
 }
 
-/* code */
-.page-content > .user {
-  background-attachment: var(--bg-scr) !important;
-  background-image: var(--bg-img) !important;
-  background-color: var(--bg-clr) !important;
-  background-position: var(--bg-pos) !important;
-  background-repeat: var(--bg-rpt) !important;
-  background-size: var(--bg-sze) !important;
+
+.history-day:not(.lv-0):hover {
+    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+}
+
+.favourite {
+    transition: .3s;
+}
+
+.favourite:hover {
+    box-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 5px rgb(var(--color-blue)) !important;
+    scale: 1.05;
+}
+
+.footer .links > section > a:hover {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
+}
+
+
+.load-more:hover {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 15px rgb(var(--color-blue)) !important;
+}
+
+.like-wrap .liked > svg {
+    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+}
+
+.like-wrap .button > svg:hover {
+    filter: drop-shadow(0 0 3px rgb(var(--color-blue)));
+    scale: 1.2;
+
+}
+
+.like-wrap .button > svg {
+    transition: 0.5s;
+}
+
+.list .title {
+    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)) !important;
 }
