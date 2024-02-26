@@ -65,11 +65,11 @@ scale: 1.3;
 
 .search > svg:hover {
     color: rgb(var(--color-text));
-    filter: drop-shadow(0 0 8px rgb(var(--color-blue)));
+    filter: drop-shadow(0 0 8px rgb(var(--color-text)));
 }
 
 .primary-link:hover {
-    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 20px rgb(var(--color-blue)) !important;
+    text-shadow: 0 0 5px rgb(var(--color-text)), 0 0 20px rgb(var(--color-blue)) !important;
 }
 
 .primary-link:hover svg {
