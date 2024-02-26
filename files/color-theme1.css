@@ -7,8 +7,8 @@
   --color-text-bright: var(--color-white);
   --color-blue: 255, 255, 255;
   --color-blue-dim: 255, 255, 255;
-  --color-red: 255, 255, 255;
-  --color-green: 255, 255, 255;
+  --color-red: 139, 139, 139;
+  --color-green: 139, 139, 139;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-text);
