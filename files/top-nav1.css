@@ -8,8 +8,8 @@
     transform: translate(-50%, 0);
     border-radius: 5px;
 }
-content: url("https://www.clipartmax.com/png/full/24-245857_extreme-heat-fire-icon-white-png.png");
 .logo{
+content: url("https://www.clipartmax.com/png/full/24-245857_extreme-heat-fire-icon-white-png.png");
 opacity: 0.5;
 transition: scale 1s, opacity .5s;
 }
