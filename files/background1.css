@@ -15,7 +15,8 @@
 /* code */
 .page-content > .user {
   background-attachment: var(--bg-scr) !important;
-  background-color: rgb(0, 0, 0);
+  background-image: var(--bg-img) !important;
+  background-color: var(--bg-clr) !important;
   background-position: var(--bg-pos) !important;
   background-repeat: var(--bg-rpt) !important;
   background-size: var(--bg-sze) !important;
