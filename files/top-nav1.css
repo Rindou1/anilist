@@ -73,13 +73,13 @@ scale: 1.3;
 }
 
 .primary-link:hover svg {
-    filter: drop-shadow(0 0 5px rgb(var(--color-blue)));
+    filter: drop-shadow(0 0 5px rgb(var(--color-text)));
 }
 
 .secondary-link:hover {
-    text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 20px rgb(var(--color-blue)) !important;
+    text-shadow: 0 0 5px rgb(var(--color-text)), 0 0 20px rgb(var(--color-text)) !important;
 }
 
 .secondary-link:hover svg {
-    filter: drop-shadow(0 0 5px rgb(var(--color-blue)));
+    filter: drop-shadow(0 0 5px rgb(var(--color-text)));
 }
