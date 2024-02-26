@@ -43,7 +43,7 @@
 }
 
 .markdown-editor > div:hover {
-    color: rgb(var(--color-blue)) !important;
+    color: rgb(var(--color-text)) !important;
     transition: 0.5s;
     scale: 1.3;
 }
