@@ -11,8 +11,8 @@
   --color-green: 255, 255, 255;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
-  --genre-green: var(--color-green);
-  --genre-blue: var(--color-blue);
+  --genre-green: var(--color-text);
+  --genre-blue: var(--color-text);
   --genre-purple: var(--color-text-lighter);
   --genre-pink: 255, 255, 255;
   --genre-red: var(--color-red);
