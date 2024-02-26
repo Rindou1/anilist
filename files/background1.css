@@ -4,7 +4,7 @@
 
 /* settings */
 :root {
-  --bg-img: url("https://i.pinimg.com/originals/ca/c8/08/cac8082a5bfe3fb29d9d1032f328fbd6.jpg");
+  --bg-img: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_Wallpaper.jpg/2560px-Black_Wallpaper.jpg");
   --bg-clr: unset;
   --bg-scr: fixed;
   --bg-pos: center;
@@ -15,7 +15,8 @@
 /* code */
 .page-content > .user {
   background-attachment: var(--bg-scr) !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-image: var(--bg-img) !important;
+  background-color: var(--bg-clr) !important;
   background-position: var(--bg-pos) !important;
   background-repeat: var(--bg-rpt) !important;
   background-size: var(--bg-sze) !important;
