@@ -28,7 +28,7 @@
   grid-template-columns: repeat(auto-fill,85px);
   grid-template-rows: repeat(auto-fill,115px);
   border-radius: 0px 5px 5px 5px;
-  background: rgb(140, 79, 60, 0.6) !important;
+  background: rgb(139, 139, 139) !important;
   width: 470px;
 }
 
@@ -43,12 +43,12 @@
 }
 
 .overview .favourites > .section-header .actions{
-  background: rgb(140, 79, 60, 0.6);
+  background: rgb(139, 139, 139);
   position: absolute !important;
 }
 
 .overview .favourites > .section-header{
-  background: rgb(140, 79, 60, 0.6);
+  background: rgb(139, 139, 139);
   margin: 0px;
   width: 100px;
   border-radius: 5px 5px 0px 0px;
@@ -57,7 +57,7 @@
 }
 
 .overview .desktop:nth-child(1) > .section-header, .overview .desktop:nth-child(2) > .section-header, .overview .desktop:nth-child(3) > .section-header{
-  background: rgb(140, 79, 60, 0.6);
+  background: rgb(139, 139, 139);
   margin: 0px;
   display: flex;
   justify-content: center;
