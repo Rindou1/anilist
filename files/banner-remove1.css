@@ -1,1 +1,18 @@
-adasdadadasd
+/*
+*   For any questions check out https://github.com/Mentor404/anilist-css/issues
+*/
+
+/*banner remove*/
+
+.hohDownload {
+    display: none;
+}
+
+.banner {
+    background-image: none !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.banner .shadow {
+    background: none !important;
+}
