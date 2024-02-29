@@ -3,7 +3,7 @@
   content: "Rindou Fan";
 }
 .header > a[href="/user/Rindou/"].name:after {
-  content: "Rindou Fan";
+  content: "Fan";
 }
 
 :root {
